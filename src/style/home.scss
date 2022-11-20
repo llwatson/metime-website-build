@@ -1,0 +1,45 @@
+.home-content-wrapper {
+
+
+    h1 {
+        @include main-content;
+        padding-top: 190px;
+        padding-bottom: 50px;
+        @include starter;
+        font-size: 2.10rem;
+        padding-left: 10px;
+        margin-bottom: 0px;
+        border-bottom: 2px solid black;
+        @media screen and(max-width: 600px) {
+            font-size: 1.80rem;
+            padding-left: 30px;
+            padding-right: 20px;
+          }
+
+    }
+      
+
+   .home-quote-wrapper {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        font-size: 2.5rem;
+        border-bottom: 3px solid black;
+        background-color: $royalblue;
+        color: white;
+        @media screen and(max-width: 600px) {
+            font-size: 1.75rem;
+          }
+
+    h2 {
+        @include starter;
+    }
+   }
+
+   .home-contact-wrapper {
+
+    h3 {
+        @include starter;
+        font-size: 1.75rem;
+    }
+   }
+}

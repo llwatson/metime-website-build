@@ -1,0 +1,25 @@
+.quotes-wrapper {
+    @include main-content;
+    padding-right: 30px;
+    padding-top: 140px;
+    background-color: $royalblue;
+
+
+    .quote-content-wrapper {
+        display: grid;
+        font-size: 1.75rem;
+        color: black;
+        padding: 60px;
+
+        h3 {
+        display: grid;
+        background-color: $lemon;
+        justify-content: center;
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 40px;
+          
+        }
+
+    }
+}
