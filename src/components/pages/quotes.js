@@ -17,7 +17,7 @@ export default class Quotes extends Component {
  
   getQuoteItems() {
     axios
-      .get("https://metime-content.herokuapp.com/quotes")
+      .get("https://lorilw1.pythonanywhere.com/quotes")
       .then(response => {
         console.log(response);
         this.setState({

@@ -27,7 +27,7 @@ export default class Donation extends Component {
   }
 
   handleSubmit(event) {
-    axios.post("https://metime-donations.herokuapp.com/amount",
+    axios.post("https://judystrong1.pythonanywhere.com/amounts",
   {
       email: this.state.email,
       amount: this.state.amount
